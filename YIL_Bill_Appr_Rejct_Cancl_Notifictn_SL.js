@@ -24,6 +24,8 @@ define(["N/http", "N/record", "N/ui/serverWidget", "N/render", "N/email", "N/sea
             if(fromRecordFlag) { fromRecordFlagField.defaultValue = fromRecordFlag; }
             
             log.debug({title: 'processFlag', details: processFlag});
+            log.debug({title: 'processFlag', details: processFlag});
+            log.debug({title: 'processFlag', details: processFlag});
             
             if(processFlag == "a") {
                 //Purchase Request Approve
